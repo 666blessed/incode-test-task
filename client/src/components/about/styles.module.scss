@@ -1,0 +1,13 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  background-color: var(--background-gray-400);
+}
+
+.heading {
+  color: var(--typography-text-gray-200);
+}

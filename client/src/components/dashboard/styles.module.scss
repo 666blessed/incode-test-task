@@ -1,0 +1,8 @@
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  background-color: var(--background-gray-400);
+}

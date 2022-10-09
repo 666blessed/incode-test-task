@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  height: 70px;
+  background-color: var(--background-gray-400);
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}

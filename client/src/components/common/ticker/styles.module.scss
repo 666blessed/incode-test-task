@@ -1,0 +1,39 @@
+.ticker {
+  color: var(--typography-text-gray-200);
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  font-weight: 700;
+
+  & span {
+    margin: 0 10px;
+    padding: 10px;
+    width: 80px;
+  }
+
+  & span:first-child {
+    min-width: 100px;
+  }
+}
+
+.positiveChange {
+  color: green;
+}
+
+.negativeChange {
+  color: red;
+}
+
+.positivePercentageChange {
+  color: green;
+  background-color: lightgreen;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.negativePercentageChange {
+  color: red;
+  background-color: lightcoral;
+  text-align: center;
+  border-radius: 8px;
+}
